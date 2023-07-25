@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Taiwind and daysi UI cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- menrope fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- icone -->
+    <script src="https://kit.fontawesome.com/acbccbbc10.js" crossorigin="anonymous"></script>
+    <!--  configuring and customizing your Tailwind installation -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- manrope fonts -->
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="font-manrope">
+    <header class="container mx-auto">
+        <div class="hero">
+            <div class="hero-content flex-col lg:flex-row">
+
+                <div>
+                    <h1 class="text-7xl font-extrabold">
+                        It's good <br>
+                        tea time at <br>
+                        The Tea House
+                    </h1>
+                    <p class="py-6 text-lg font-normal">
+                        Tea and Botanical Solutions Supplier Give Optimum <br>
+                        Satisfaction To Your Taste Buds.
+                    </p>
+                    <button class="btn btn-primary bg-gradient-to-r from-[#f00] to-[#FF8938] border-0">Get
+                        Started</button>
+                </div>
+                <div>
+                    <img class="w-full" src="/images/banner.png" class="max-w-sm" />
+                    <div class="flex items-center gap-3 lg:w-64 md:w-60 w-48 lg:py-5 md:py-5 py-1 lg:px-6 md:px-5 px-1 bg-white relative lg:bottom-28 md:bottom-28 bottom-20 lg:left-20 md:left-24 left-14 rounded-xl shadow-lg">
+                    <i class="fa-solid fa-star text-3xl" style="color: #ffa200;"></i>
+                    <div>
+                        <h3 class="lg:text-3xl text-2xl   font-extrabold ">5.00</h3>
+                        <p class="text-base font-normal">Trust Pilot Ratings</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto">
+        <section class="text-center my-28">
+            <h2 class="text-4xl font-extrabold text-[#1C1C1C]">Our Featured Products</h2>
+            <p class="text-base text-[#777] ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br>
+            by injected humour, or randomised words which don't look even slightly believable.
+            </p>
+            <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-8 lg:mt-10 mt-10 lg:p-0 p-4">
+            <div class="card bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img src="/images/tea-1.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Milk Tea</h2>
+                  <p>
+                    Creamer could be replaced <br> 
+                    by fresh milk
+                </p>
+                </div>
+              </div>
+            <div class="card bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img src="/images/tea-2.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Milk Tea</h2>
+                  <p>
+                    Creamer could be replaced <br> 
+                    by fresh milk
+                </p>
+                </div>
+              </div>
+            <div class="card bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img src="/images/tea-3.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Milk Tea</h2>
+                  <p>
+                    Creamer could be replaced <br> 
+                    by fresh milk
+                </p>
+                </div>
+              </div>
+            <div class="card bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img src="/images/tea-4.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Milk Tea</h2>
+                  <p>
+                    Creamer could be replaced <br> 
+                    by fresh milk
+                </p>
+                </div>
+              </div>
+              </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
